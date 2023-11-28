@@ -1,0 +1,40 @@
+@media (max-width: 1024px) {
+    .little-last-img {
+        display: none;
+    }
+
+    .gallery-photos-little {
+        justify-content: center;
+    }
+
+    .big-item-img {
+        display: none;
+    }
+
+    .big-img {
+        margin: 0;
+    }
+
+    .gallery-photos-big {
+        justify-content: center;
+    }
+
+    .partners-sec {
+        padding: 50px 55px;
+    }
+}
+
+@media (max-width: 815px) {
+    .nav-icons {
+        display: none;
+    }
+
+    .burger-btn {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .header-nav-buttons {
+        display: flex;
+    }
+}
