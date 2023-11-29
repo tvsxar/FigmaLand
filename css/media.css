@@ -1,4 +1,21 @@
 @media (max-width: 1100px) {
+    .header-content {
+        padding: 60px 140px;
+    }
+
+    .header-subtitle {
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+
+    .content-text {
+        padding: 0 200px;
+    }
+
+    .gallery-text {
+        margin: 0 180px 44px;
+    }
+
     .little-last-img {
         display: none;
     }
@@ -22,9 +39,17 @@
     .partners-sec {
         padding: 50px 55px;
     }
+
+    .content-text {
+        padding: 0 80px;
+    }
+
+    .footer-content {
+        gap: 100px;
+    }
 }
 
-@media (max-width: 815px) {
+@media (max-width: 840px) {
     .nav-icons {
         display: none;
     }
@@ -32,9 +57,83 @@
     .burger-btn {
         display: block;
         margin-left: 20px;
+        border: none;
     }
 
     .header-nav-buttons {
         display: flex;
+    }
+
+    .header-content {
+        padding: 60px 55px;
+    }
+
+    .features-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .feature-card {
+        margin-bottom: 25px;
+    }
+
+    .feature-card:last-child {
+        margin-bottom: 0;
+    }
+
+    .content-text {
+        padding: 0 110px;
+    }
+
+    .content-cards {
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 476px;
+    }
+
+    .gallery-photos-little {
+        flex-direction: column;
+        padding: 0 70px;
+    }
+
+    .little-img, .big-img {
+        display: none;
+    }
+
+    .little-mobile-img {
+        display: block;
+        border-radius: 12px;
+    }
+
+    .partners-logos {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 50px;
+        justify-items: stretch; 
+    }
+
+    .fonts {
+        background: #1E1E1E;
+    }
+
+    .left-content {
+        padding: 0;
+    }
+
+    .fonts-content {
+        background-color: rgba(205, 214, 219, 0);
+        flex-direction: column;
+        text-align: center;
+        padding: 0 150px;
+    }
+
+    .fonts-img {
+        display: none;
+    }
+
+    .fonts-img-second {
+        display: block;
+        margin-top: 100px;
     }
 }
