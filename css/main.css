@@ -110,6 +110,8 @@ ol {
 }
 
 .try-btn {
+    display: block;
+
     color: #FFF;
     text-decoration: none;
     background-color: #4452FE;
@@ -126,6 +128,8 @@ ol {
 }
 
 .learn-btn {
+    display: block;
+    
     color: #FFF;
     text-decoration: none;
     border: 1px solid #FFF;
